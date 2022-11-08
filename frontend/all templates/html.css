@@ -1,0 +1,85 @@
+body{
+    background-image:url('html\ image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    border-radius: 50%;
+    font-family: 'Numans', sans-serif;
+}
+
+.container{
+    height: 100%;
+    align-content: center;
+    margin-top: 12%;
+}
+
+.card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 30%;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon{
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    display: inline-block;
+    width: 25%;
+ }
+
+.social_icon span{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5%;
+    color: #FFC312;
+    }
+
+    .social_icon span:hover{
+        color: white;
+        cursor: pointer;
+        }
+
+    .input-group-prepend span{
+        width: 50px;
+        background-color: #FFC312;
+        color: black;
+        border:0 !important;
+        }
+
+.input-group{
+   margin-top: 10%;
+}
+
+.signin{
+    color: #FFC312;
+    display: inline-block;
+    width: 60%;
+    margin-left: 105jkxheuec c  c px;
+    margin-top: 5%;
+}
+
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+
+.remember{
+    color: #FFC312;
+    }
+
+.remember input
+    {
+    width: 20px;
+    height: 20px;
+    bottom: 80px;
+    margin-left: 20px;
+    margin-right: 5px;
+    }
+
+    .login_btn:hover{
+        color: black;
+        background-color: white;
+        }
